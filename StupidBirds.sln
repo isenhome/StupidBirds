@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StupidBirds.PinFang.HomeLog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StupidBirds.PinFang.HomeDataAccess", "StupidBirds.PinFang.HomeDataAccess\StupidBirds.PinFang.HomeDataAccess.csproj", "{36FC701A-8E75-408B-82C4-7C3B9B8FA285}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{9EFEC880-521D-49FA-87F9-165D4CA3248E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StupidBirds.PinFang.Framwork", "StupidBirds.PinFang.Framwork\StupidBirds.PinFang.Framwork.csproj", "{E68F0098-4FBA-4989-B92F-C0CE4874F02D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{36FC701A-8E75-408B-82C4-7C3B9B8FA285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36FC701A-8E75-408B-82C4-7C3B9B8FA285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36FC701A-8E75-408B-82C4-7C3B9B8FA285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68F0098-4FBA-4989-B92F-C0CE4874F02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68F0098-4FBA-4989-B92F-C0CE4874F02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68F0098-4FBA-4989-B92F-C0CE4874F02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68F0098-4FBA-4989-B92F-C0CE4874F02D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +61,6 @@ Global
 		{BDDE5384-86AB-4607-9FD9-3C4B438D2150} = {6772333D-655D-4C0F-A6B4-27E88A538AC6}
 		{317A4898-C1E0-41AF-85B3-B2E09AEBF6A7} = {2341AA89-5442-479B-977A-65E5B3ABA0DA}
 		{36FC701A-8E75-408B-82C4-7C3B9B8FA285} = {600E3F76-9928-455C-838E-5CB1F2B25994}
+		{E68F0098-4FBA-4989-B92F-C0CE4874F02D} = {9EFEC880-521D-49FA-87F9-165D4CA3248E}
 	EndGlobalSection
 EndGlobal
