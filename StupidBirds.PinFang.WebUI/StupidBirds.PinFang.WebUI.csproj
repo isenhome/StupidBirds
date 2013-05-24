@@ -61,7 +61,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Areas\TestArea\Controllers\HomeController.cs" />
+    <Compile Include="Areas\TestArea\Controllers\HomeTestAreaController.cs" />
     <Compile Include="Areas\TestArea\TestAreaAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -143,10 +143,20 @@
     <Content Include="Areas\TestArea\Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Areas\TestArea\Views\Home\Index.cshtml" />
+    <Content Include="Areas\TestArea\Views\HomeTestArea\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StupidBirds.PinFang.Controllers\StupidBirds.PinFang.Controllers.csproj">
+      <Project>{FE221AD2-3C3D-49C5-87AA-373568E36387}</Project>
+      <Name>StupidBirds.PinFang.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StupidBirds.PinFang.Models\StupidBirds.PinFang.Models.csproj">
+      <Project>{BDDE5384-86AB-4607-9FD9-3C4B438D2150}</Project>
+      <Name>StupidBirds.PinFang.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

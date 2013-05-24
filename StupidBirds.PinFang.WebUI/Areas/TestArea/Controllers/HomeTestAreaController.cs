@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace StupidBirds.PinFang.WebUI.Areas.TestArea.Controllers
 {
-    public class HomeController : Controller
+    public class HomeTestAreaController : Controller
     {
         //
         // GET: /TestArea/Home/

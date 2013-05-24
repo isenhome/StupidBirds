@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Web.Mvc;
+using StupidBirds.PinFang.Models;
 
 namespace StupidBirds.PinFang.Controllers
 {
@@ -10,7 +11,7 @@ namespace StupidBirds.PinFang.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(new HomePageModel());
         }
     }
 }
