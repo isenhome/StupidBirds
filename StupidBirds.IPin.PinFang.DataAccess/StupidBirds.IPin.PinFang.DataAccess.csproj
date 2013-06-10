@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ca97ce2d-b309-43d7-a997-54d8233069e2</ProjectGuid>
+    <ProjectGuid>{E2CCA8C4-33F3-44F4-A52E-B69147E932B0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>StupidBirds.IPin.PinFang.DataAccess</RootNamespace>
